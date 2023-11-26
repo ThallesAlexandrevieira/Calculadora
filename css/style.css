@@ -1,0 +1,69 @@
+	.degrade{
+		background-image: linear-gradient(45deg, rgb(127,79,190), rgb( 79,42,165 ));
+		height:100vh;
+		color:white;
+		font-family:comic Sans Ms;
+		text-align:center;
+	}
+
+	.calculadora{
+		position:absolute;
+		background-color: rgb(0,0,0,0.8);
+		top: 50%;
+		left: 50%;
+		transform:translate( -50%,-50% );
+		border-radius:15px;
+		padding:15px;
+	}
+
+	.botao{
+		width:50px;
+		height:50px;
+		font-size: 25px;
+		border-radius:8px;
+		border:none;
+		background-color:black;
+		color:white;
+		margin:3px;
+		
+	}
+	.botao:hover{
+		background-color:blue;
+		
+	}
+	#resultado{
+		background-color:white;
+		width:210px;
+		height:30px;
+		margin:5px;
+		padding:5px;
+		text-align:right;
+		color:black;
+		font-size:25px;
+		}
+		
+	footer{
+	background-color:blue;
+		width:210px;
+		height:30px;
+		margin:5px;
+		padding:5px;
+		text-align:right;
+		color:black;
+		font-size:25px;	
+	}	
+	<i class="fab fa-linkedin"></i>
+<i class="fab fa-facebook"></i>
+ <i class="fab fa-twitter"></i>
+<i class="fab fa-github"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fas fa-globe"></i>
+    <i class="far fa-envelope"></i>
+    <i class="fas fa-home"></i>
+	
+	button:hover{
+	transform: scale(1.1);
+	transition: all 0.5s;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan, 0 0 400px cyan;
+}
